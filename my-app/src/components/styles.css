@@ -1,0 +1,68 @@
+.add-task-btn{
+    background: blue;
+    color: white;
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.del-task-btn{
+    background: red;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    height: 20px;
+}
+
+.task-table{
+    width: 100%;;
+}
+
+td {
+    padding: 15px 0;
+    text-align: center;
+  }
+
+  tr.border-bottom {
+    border-bottom: 1px solid gray;
+  }
+
+  .dropdown-content{
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    margin-top: 50px;
+  }
+
+  .logout-btn{
+      position: absolute;
+      margin-left: 10px;
+      background: white;
+      height: 20px;
+      border: 1px solid gray;
+  }
+
+  .change-password-btn{
+    background: white;
+    height: 20px;
+    border: 1px solid gray;
+}
+
+.user-pg-wrapper{
+    margin: 20px;
+}
+
+#login {
+    position: absolute;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    text-align: left;
+    margin: 20px;
+    height: 200px;
+    width:200px;
+}
